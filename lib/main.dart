@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:goal/pages/HomePage.dart';
+import 'package:goal/pages/CounterPage.dart';
+// import 'package:goal/pages/HomePage.dart';
 
 void main(){
   runApp(MyWidget());
@@ -11,7 +12,8 @@ class MyWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Homepage(),
+      home: const Counterpage(),
+
     );
   }
 }
